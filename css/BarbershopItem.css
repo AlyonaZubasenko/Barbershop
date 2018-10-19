@@ -1,0 +1,216 @@
+html,
+body{
+max-width: 1200px;
+margin: 0 auto;
+border: 1px solid red;
+text-transform: uppercase;
+line-height: 20px;
+font-size: 13px;
+font-family: Arial, Helvetica, sans-serif;
+}
+.main-header {
+    display: flex;
+    width: 1200px;
+    border: 1px solid rgb(247, 243, 9);
+    background: black;
+    color: aliceblue;
+    margin: 0 auto;
+    }
+    .main{
+        display: flex;
+        width: 940px;
+        
+        border: 1px solid rgb(164, 191, 233);
+        margin: 0 auto;
+            }
+    .main-navigation ul{
+        width: 840px;
+        display: flex;
+        height: 100%;
+        padding-left: 0;
+        text-align: center;
+        margin-top: 0;
+        border: 1px solid rgb(161, 20, 119);
+        
+
+    }
+    .main-navigation li{
+        width: 120px;
+        border: 1px solid rgb(24, 124, 33);
+        padding-top: 12px;
+        list-style: none;
+        cursor: pointer;
+    }
+    .main-navigation li:hover{
+        opacity: .6;
+    }
+    .user-block:hover{
+        opacity: .6;
+    }
+
+    .user-block {
+        position: relative;
+        width: 100px;
+        border: 1px solid rgb(31, 97, 197);
+        cursor: pointer;
+        text-align: end;
+        padding-top: 12px;
+    }
+    .user-block::after {
+        content: "";
+        position: absolute;
+        width: 24px;
+        height: 20px;
+        background: black url(../Content/icon/enter-1.png);
+        left: 30px;
+    }
+    a {
+        color: white;
+        text-decoration: none;
+    }
+.content{ 
+display: flex;
+flex-direction: column;
+width: 940px;
+
+border: 1px solid rgb(164, 191, 233);
+margin: 0 auto;
+    }
+ .heading {
+    display: flex;
+    width: 940px;
+   
+    border: 1px solid rgb(38, 104, 209);  
+ }  
+ .breadcrums {
+    display: flex;
+    width: 940px;
+    padding-left: 0;
+   list-style: none;
+    border: 1px solid rgb(38, 104, 209);
+ }
+ .breadcrums a{
+    color: black;
+    padding-right: 20px;
+
+ }
+ .card {
+    display: flex;
+    width: 940px;
+   
+    border: 1px solid rgb(38, 104, 209);
+ }
+ .card-gallery {
+     display: flex;
+     flex-direction: row;
+     flex-wrap: wrap;
+     width: 470px;
+     height: 670px;
+     border: 1px solid rgb(236, 21, 190);
+ }
+ .gallery-item {
+    display: flex;
+     width: 470px;
+     justify-content: space-between;
+     list-style: none;
+     border: 1px solid rgb(38, 104, 209);
+     padding-left: 0;
+      }
+ .gallery-item li {
+     width: 140px;
+     border: 1px solid rgb(236, 21, 190);
+ }
+
+ .card-info {
+     display: flex;
+     flex-direction: column;
+    width: 470px;
+    height: 670px;
+    border: 1px solid rgb(24, 5, 20);
+    margin-bottom: 20px;
+ }
+.product-description {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 470px;
+    border: 1px solid rgb(236, 21, 190);
+    margin-top: 40px;
+}
+.status-art {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.product-description .product-status {
+    display: flex;
+    align-items: center;
+    width: 190px;
+        border: 1px solid rgb(24, 5, 20);
+}
+.product-description p{
+    width: 190px;
+    border: 1px solid rgb(24, 5, 20);
+    color: grey;
+}
+.product-description section{
+    display: flex;
+    width: 470px;
+    padding: 40px 0;
+}
+.product-list {
+display: flex;
+flex-direction: column;
+width: 470px;
+border: 1px solid rgb(236, 21, 190);
+}
+.product-list p{
+     font-weight: bold;
+     font-size: 20px;
+     
+}
+.product-list ul {
+    list-style: square;
+}
+
+ .footer {
+    display: flex;
+    flex-direction: row;
+    width: 940px;
+    border: 1px solid rgb(164, 191, 233);
+    margin: 0 auto;
+ }
+ .column {
+     display: flex;
+     width: 310px;
+     border: 1px solid rgb(236, 21, 190);
+     text-align: center;
+ }
+ 
+ .social-network a{
+position: relative;
+ }
+ .social-network .social-btn-vk::after{
+     content: "";
+     position: absolute;
+     width: 45px;
+     height: 45px;
+     left:-65px;
+     background: grey url(../Content/icon/VK-1.png);
+ }
+ .social-btn-fb::after {
+    content: "";
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    left: -15px;
+    background: grey url(../Content/icon/fb.png);
+ }
+ .social-btn-inst::after {
+    content: "";
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    left: 35px;
+    background: grey url(../Content/icon/IG.png);
+ }

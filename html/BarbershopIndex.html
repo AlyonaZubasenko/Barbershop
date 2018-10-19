@@ -1,0 +1,140 @@
+<!doctype html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="../css/BarbershopIndex.css">
+    <meta charset="UTF-8">
+    <title>Page_1</title>
+</head>
+
+<body>
+    <header class="main-header">
+        <div class="container-header">
+            <nav class="main-navigation">
+                <ul>
+                    <li>
+                        <a href="#">Информация</a>
+                    </li>
+                    <li>
+                        <a href="#">Новости</a>
+                    </li>
+                    <li>
+                        <a href="#">Прайс-лист</a>
+                    </li>
+                    <li>
+                        <a href="#">Магазин</a>
+                    </li>
+                    <li>
+                        <a href="#">Контакты</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="user-block">
+                <a class="login" href="#">Вход</a>
+            </div>
+        </div>
+    </header>
+    <main class="container">
+        <div class="index-logo">
+            <img src="../Content/icon/logoBig.png" wight="96" height="96" alt="Конный клуб Амакс">
+        </div>
+        <section class="features">
+            <div class="features-item">
+                <b class="features-name"> Быстро</b>
+                <p>Мы делаем свою работу быстро. Два часа пролетят незаметно и вы-счастливый обладатель стильной стрижки.</p>
+            </div>
+            <div class="features-item">
+                <b class="features-name">Качественно</b>
+                <p>забудьте, как вы стриглись раньше. Мы сделаем из вас звезду футбола и кино!</p>
+            </div>
+            <div class="features-item">
+                <b class="features-name">Дорого</b>
+                <p>наши мастера-профессионалы</p>
+            </div>
+        </section>
+        <div class="index-content">
+            <div class="index-content-left">
+                <h2 class="index-content-title">Новости</h2>
+                <ul class="news-preview">
+                    <li>
+                        <p>Нам наконец завезли Егермейстер! теперь вы сможете пропустить стаканчик во время стрижки!</p>
+                        <time datetime="2018-02-03">3 февраля</time>
+                    </li>
+                    <li>
+                        <p>В нашей команде пополнение! Обладатель множества титулов и наград пополнил наши ряды!</p>
+                        <time datetime="2018-02-15">15 февраля</time>
+                    </li>
+                </ul>
+                <a class="btn" href="http:\\google.com">Все новости</a>
+            </div>
+
+            <div class="index-content-right">
+                <h2 class="index-content-title">Фотогалерея</h2>
+                <div class="gallery">
+                    <figure class="galery-content">
+                        <img src="../Content/icon/Gallery.png" width="288" height="166" alt="">
+                    </figure>
+                    <button class="btn gallery-prev" type="button">Назад
+                    </button>
+                    <button class="btn gallery-next" type="button">Вперёд
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="information">
+            <div class="information-left">
+                <h2 class="information-title">Контактная информация</h2>
+                <p>Барбершоп "Бородинский" <br> Адрес: г.Киев, пр. Правды 70<br> Телефон: +38(095)6489435
+                </p>
+                <p>
+                    Время работы:<br> пн-пт: с 10:00 до 22:00 <br> сб-вс: с 12:00 до 15:00 <br>
+                </p>
+                <a class="btn go" href="#">Как проехать</a>
+                <a class="btn call" href="#">Обратная связь</a>
+            </div>
+            <div class="information-right">
+                <h2 class="information-title">Записаться</h2>
+                <p> Заполните формы ниже и мы свяжемся с Вами в ближайшее время!</p>
+                <form class="appointment-form" action="#" method="post">
+                    <input class="date" type="text" name="date" value="" placeholder="Дата">
+                    <input class="time" type="text" name="time" value="" placeholder="Время">
+                    <input class="name" type="text" name="name" value="" placeholder="Имя">
+                    <input class="phone" type="text" name="phone" value="" placeholder="Телефон">
+                    <button class="btn send" type="submit">Отправить</button>
+                </form>
+            </div>
+        </div>
+    </main>
+    <footer class="main-footer">
+        <div class="container-footer">
+            <div class="contakty">
+                <p>Барбершоп "Бородинский" <br> Адрес: г.Киев, пр. Правды 70<br> Телефон: +38(095)6489435
+                    <br>
+                    <a href="#">Как нас найти?</a>
+                </p>
+
+            </div>
+            <div class="social-network">
+                <p>Давайте дружить!<br>
+                    <a class="social-btn social-btn-vk" href="#"></a>
+                    <a class="social-btn social-btn-fb" href="#"></a>
+                    <a class="social-btn social-btn-inst" href="#"></a>
+                </p>
+            </div>
+            <div class="social-copyright">
+                <p>разработано
+                </p>
+                <button class="site" type="submit"> site.com</button>
+            </div>
+        </div>
+    </footer>
+</body>
+<script>
+    function goLink(url) {
+        if (url != null)
+            window.location.href = url;
+        else alert('Куда намылился, балбес?');
+    }
+</script>
+
+</html>

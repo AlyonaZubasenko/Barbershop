@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+border: 1px solid red;
+background-color: #555;
+padding: 15px 60px 25px 50px;
+display: inline-block;
+}
+.header-left .middle{
+    margin: 25px 0;
+}
+.logo > img{
+    height: 100px;
+    width: 100px;
+    float: left;
+}
+.title{
+
+    float: left;
+}
+.top, .middle{
+    display: inline-block;
+    float: none;
+    width: 100%;
+}
+.top h1, .top h5{
+    margin-left: 25px;    
+}
+.top h1{
+    font-size: 50px;
+}
+.top h5{
+    font-size: 20px;
+}
+.header-left{
+    float: left;
+    display: block;
+    width: 60%;
+    border: 1px solid green;
+
+}
+.header-right{
+    margin: 50px auto;
+    width: 39%;
+    display: inline-block;
+    border: 1px solid blue;
+    text-align: center;
+}
+.header-right .middle{
+    padding: 25px 0;
+}
+.header-left button{
+    border: 1px solid #035103;
+    background-color:#079c07    ;
+    border-radius: 7px;    
+}
+.width-270px{
+    width: 270px;
+}
+.header-right button{
+    border: 1px solid #232323;
+    background-color: #3b3333;
+    border-radius: 7px;
+    
+}
+button{
+    padding: 15px 30px;
+    border-radius: 7px;
+}
+
+button.width-50{
+    width: 49%;
+}
+button.width-100{
+    width: 100%;
+}
+/* html,
+body {
+font-family: Arial, sans-serif;
+ background: none;
+}
+
+.footer {
+    width: 1600px;
+    height: 600px;
+    border:5px solid red;
+    }
+.footer-logo-text {
+ width: 1000px;
+   height: 600;
+   border: 1px solid green;
+}
+img {
+    float: left;
+    width: 100px;
+    height: 100px;
+}
+span {
+    float: left;
+    width: 100px;
+    height: 100px; 
+    margin-left: 40px;
+    margin-right: 40px;
+    }
+p {
+    float: left;
+    width: 100px;
+    height: 100px;    
+}
+div {
+    width: 600px;
+    height: 100px;      
+}
+
+   */
